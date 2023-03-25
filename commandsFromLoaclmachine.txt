@@ -1,0 +1,19 @@
+
+git --version  					To check git exist on machine  use 
+git config global --list 		To check any git configuration globally
+git config user.name			To find the user
+git config user.email			To find the user email
+
+git init 						To create a git repository will initialize empty git repository
+git status 						To check teh status of files
+git add 				 		To add 1 file
+git add . 						To add multiple files
+git commit -m 'commit message'  To commit a file with message
+git push 						To push a file to git hub repository
+git remote add origin https://github.com/sblsreddy/Git-Tutorials.git   ( this did not work ) instead do git clone using https link from git hub and commit the files
+git remote -v
+git branch --set-upstream-to origin/main
+git pull
+git pull --allow-unrelated-histories
+!q 	confirm
+git push
